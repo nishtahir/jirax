@@ -1,0 +1,17 @@
+name: jirax
+version: 0.1.0
+
+authors:
+  - Nish Tahir <nish.tahir@willowtreeapps.com>
+
+targets:
+  jirax:
+    main: src/jirax.cr
+
+crystal: 0.27.0
+
+dependencies:
+  poncho:
+    github: icyleaf/poncho
+
+license: MIT
